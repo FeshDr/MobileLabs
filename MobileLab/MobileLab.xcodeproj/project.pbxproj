@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDA77AF2BB2FF8000C98CE5 /* MobileLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA77AE2BB2FF8000C98CE5 /* MobileLabApp.swift */; };
+		CEDA77B12BB2FF8000C98CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA77B02BB2FF8000C98CE5 /* ContentView.swift */; };
+		CEDA77B32BB2FF8000C98CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA77B22BB2FF8000C98CE5 /* Assets.xcassets */; };
+		CEDA77B62BB2FF8000C98CE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA77B52BB2FF8000C98CE5 /* Preview Assets.xcassets */; };
+		CEDA77C12BB2FF8000C98CE5 /* MobileLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA77C02BB2FF8000C98CE5 /* MobileLabTests.swift */; };
+		CEDA77CB2BB2FF8000C98CE5 /* MobileLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA77CA2BB2FF8000C98CE5 /* MobileLabUITests.swift */; };
+		CEDA77CD2BB2FF8000C98CE5 /* MobileLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA77CC2BB2FF8000C98CE5 /* MobileLabUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDA77BD2BB2FF8000C98CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA77A32BB2FF8000C98CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA77AA2BB2FF8000C98CE5;
+			remoteInfo = MobileLab;
+		};
+		CEDA77C72BB2FF8000C98CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA77A32BB2FF8000C98CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA77AA2BB2FF8000C98CE5;
+			remoteInfo = MobileLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDA77AB2BB2FF8000C98CE5 /* MobileLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA77AE2BB2FF8000C98CE5 /* MobileLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLabApp.swift; sourceTree = "<group>"; };
+		CEDA77B02BB2FF8000C98CE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDA77B22BB2FF8000C98CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDA77B52BB2FF8000C98CE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDA77B72BB2FF8000C98CE5 /* MobileLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobileLab.entitlements; sourceTree = "<group>"; };
+		CEDA77BC2BB2FF8000C98CE5 /* MobileLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA77C02BB2FF8000C98CE5 /* MobileLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLabTests.swift; sourceTree = "<group>"; };
+		CEDA77C62BB2FF8000C98CE5 /* MobileLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA77CA2BB2FF8000C98CE5 /* MobileLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLabUITests.swift; sourceTree = "<group>"; };
+		CEDA77CC2BB2FF8000C98CE5 /* MobileLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDA77A82BB2FF8000C98CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA77B92BB2FF8000C98CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA77C32BB2FF8000C98CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDA77A22BB2FF8000C98CE5 = {
+			isa = PBXGroup;
+			children = (
+				CEDA77AD2BB2FF8000C98CE5 /* MobileLab */,
+				CEDA77BF2BB2FF8000C98CE5 /* MobileLabTests */,
+				CEDA77C92BB2FF8000C98CE5 /* MobileLabUITests */,
+				CEDA77AC2BB2FF8000C98CE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDA77AC2BB2FF8000C98CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA77AB2BB2FF8000C98CE5 /* MobileLab.app */,
+				CEDA77BC2BB2FF8000C98CE5 /* MobileLabTests.xctest */,
+				CEDA77C62BB2FF8000C98CE5 /* MobileLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDA77AD2BB2FF8000C98CE5 /* MobileLab */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA77AE2BB2FF8000C98CE5 /* MobileLabApp.swift */,
+				CEDA77B02BB2FF8000C98CE5 /* ContentView.swift */,
+				CEDA77B22BB2FF8000C98CE5 /* Assets.xcassets */,
+				CEDA77B72BB2FF8000C98CE5 /* MobileLab.entitlements */,
+				CEDA77B42BB2FF8000C98CE5 /* Preview Content */,
+			);
+			path = MobileLab;
+			sourceTree = "<group>";
+		};
+		CEDA77B42BB2FF8000C98CE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA77B52BB2FF8000C98CE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDA77BF2BB2FF8000C98CE5 /* MobileLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA77C02BB2FF8000C98CE5 /* MobileLabTests.swift */,
+			);
+			path = MobileLabTests;
+			sourceTree = "<group>";
+		};
+		CEDA77C92BB2FF8000C98CE5 /* MobileLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA77CA2BB2FF8000C98CE5 /* MobileLabUITests.swift */,
+				CEDA77CC2BB2FF8000C98CE5 /* MobileLabUITestsLaunchTests.swift */,
+			);
+			path = MobileLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDA77AA2BB2FF8000C98CE5 /* MobileLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA77D02BB2FF8000C98CE5 /* Build configuration list for PBXNativeTarget "MobileLab" */;
+			buildPhases = (
+				CEDA77A72BB2FF8000C98CE5 /* Sources */,
+				CEDA77A82BB2FF8000C98CE5 /* Frameworks */,
+				CEDA77A92BB2FF8000C98CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLab;
+			productName = MobileLab;
+			productReference = CEDA77AB2BB2FF8000C98CE5 /* MobileLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDA77BB2BB2FF8000C98CE5 /* MobileLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA77D32BB2FF8000C98CE5 /* Build configuration list for PBXNativeTarget "MobileLabTests" */;
+			buildPhases = (
+				CEDA77B82BB2FF8000C98CE5 /* Sources */,
+				CEDA77B92BB2FF8000C98CE5 /* Frameworks */,
+				CEDA77BA2BB2FF8000C98CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA77BE2BB2FF8000C98CE5 /* PBXTargetDependency */,
+			);
+			name = MobileLabTests;
+			productName = MobileLabTests;
+			productReference = CEDA77BC2BB2FF8000C98CE5 /* MobileLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDA77C52BB2FF8000C98CE5 /* MobileLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA77D62BB2FF8000C98CE5 /* Build configuration list for PBXNativeTarget "MobileLabUITests" */;
+			buildPhases = (
+				CEDA77C22BB2FF8000C98CE5 /* Sources */,
+				CEDA77C32BB2FF8000C98CE5 /* Frameworks */,
+				CEDA77C42BB2FF8000C98CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA77C82BB2FF8000C98CE5 /* PBXTargetDependency */,
+			);
+			name = MobileLabUITests;
+			productName = MobileLabUITests;
+			productReference = CEDA77C62BB2FF8000C98CE5 /* MobileLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDA77A32BB2FF8000C98CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CEDA77AA2BB2FF8000C98CE5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CEDA77BB2BB2FF8000C98CE5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CEDA77AA2BB2FF8000C98CE5;
+					};
+					CEDA77C52BB2FF8000C98CE5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CEDA77AA2BB2FF8000C98CE5;
+					};
+				};
+			};
+			buildConfigurationList = CEDA77A62BB2FF8000C98CE5 /* Build configuration list for PBXProject "MobileLab" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDA77A22BB2FF8000C98CE5;
+			productRefGroup = CEDA77AC2BB2FF8000C98CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDA77AA2BB2FF8000C98CE5 /* MobileLab */,
+				CEDA77BB2BB2FF8000C98CE5 /* MobileLabTests */,
+				CEDA77C52BB2FF8000C98CE5 /* MobileLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDA77A92BB2FF8000C98CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA77B62BB2FF8000C98CE5 /* Preview Assets.xcassets in Resources */,
+				CEDA77B32BB2FF8000C98CE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA77BA2BB2FF8000C98CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA77C42BB2FF8000C98CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDA77A72BB2FF8000C98CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA77B12BB2FF8000C98CE5 /* ContentView.swift in Sources */,
+				CEDA77AF2BB2FF8000C98CE5 /* MobileLabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA77B82BB2FF8000C98CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA77C12BB2FF8000C98CE5 /* MobileLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA77C22BB2FF8000C98CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA77CD2BB2FF8000C98CE5 /* MobileLabUITestsLaunchTests.swift in Sources */,
+				CEDA77CB2BB2FF8000C98CE5 /* MobileLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDA77BE2BB2FF8000C98CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA77AA2BB2FF8000C98CE5 /* MobileLab */;
+			targetProxy = CEDA77BD2BB2FF8000C98CE5 /* PBXContainerItemProxy */;
+		};
+		CEDA77C82BB2FF8000C98CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA77AA2BB2FF8000C98CE5 /* MobileLab */;
+			targetProxy = CEDA77C72BB2FF8000C98CE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEDA77CE2BB2FF8000C98CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDA77CF2BB2FF8000C98CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CEDA77D12BB2FF8000C98CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobileLab/MobileLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileLab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.MobileLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEDA77D22BB2FF8000C98CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobileLab/MobileLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileLab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.MobileLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CEDA77D42BB2FF8000C98CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.MobileLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileLab.app/Contents/MacOS/MobileLab";
+			};
+			name = Debug;
+		};
+		CEDA77D52BB2FF8000C98CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.MobileLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileLab.app/Contents/MacOS/MobileLab";
+			};
+			name = Release;
+		};
+		CEDA77D72BB2FF8000C98CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.MobileLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MobileLab;
+			};
+			name = Debug;
+		};
+		CEDA77D82BB2FF8000C98CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.MobileLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MobileLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDA77A62BB2FF8000C98CE5 /* Build configuration list for PBXProject "MobileLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA77CE2BB2FF8000C98CE5 /* Debug */,
+				CEDA77CF2BB2FF8000C98CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA77D02BB2FF8000C98CE5 /* Build configuration list for PBXNativeTarget "MobileLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA77D12BB2FF8000C98CE5 /* Debug */,
+				CEDA77D22BB2FF8000C98CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA77D32BB2FF8000C98CE5 /* Build configuration list for PBXNativeTarget "MobileLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA77D42BB2FF8000C98CE5 /* Debug */,
+				CEDA77D52BB2FF8000C98CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA77D62BB2FF8000C98CE5 /* Build configuration list for PBXNativeTarget "MobileLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA77D72BB2FF8000C98CE5 /* Debug */,
+				CEDA77D82BB2FF8000C98CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDA77A32BB2FF8000C98CE5 /* Project object */;
+}
